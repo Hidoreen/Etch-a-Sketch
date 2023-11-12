@@ -8,22 +8,46 @@ body{
     margin: 50px;
     height: 100vh;
    }
+
+   .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
    
 .container {
     width: 500px;
     height: 500px;
     border: 2px solid;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    /* grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
     margin-left: auto;
 }
 
 .square-grid {
     background-color: #ececec;
-    border: 1px solid #757575;
+    border: 1px solid #6d4e00;
+   
+}
+
+.resetbtn{
+    background-color: #6d4e00;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
+    margin: 12px;
 }
 
 
+button[type='submit']{
+    background-color: transparent;
+    border: 2px solid #6d4e00;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
 
-
+input{
+    padding: 6px 12px;
+}
