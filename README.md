@@ -7,6 +7,9 @@ Drawing: Use the mouse to draw and sketch on the grid.
 
 Reset Grid: The application allows users to reset the grid, keeping the same grid size.
 
+# Show Preview 
+(https://hidoreen.github.io/Etch-a-Sketch/)
+
 # Technologies Used
 HTML: Structure of the web page.
 
@@ -22,9 +25,6 @@ Use the mouse to draw and sketch on the grid.
 
 Reset Grid:
 Click the "Reset Grid" button to clear the drawing and start fresh while keeping the same grid size.
-
-# Show Preview 
-http://127.0.0.1:5500/index.html
 
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are always welcome!
